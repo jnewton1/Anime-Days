@@ -1,0 +1,58 @@
+body
+{
+background-color:#000033;
+background-image: url primehorizontal.png;
+color: #000033;
+font-family:Arial, Helvetica, sans-serif; 
+}
+h2
+{
+
+color:#003366;
+}
+h3
+{
+padding-top: 10px;
+
+color:#006600;
+}
+dd
+{
+font-style:italic;
+font-size: .80em;
+line-height: line-height:200%
+}
+#header
+{
+
+color:#48751A;  
+}
+.nav
+{
+font-weight: bold;
+font-size: 1.2em;
+}
+.contact
+{
+font-weight: bold;
+font-size: .80em;
+font-family:"Times New Roman", sans-serif; 
+}
+#footer
+{
+font-size: .60em;
+font-style: italic;
+}
+
+#wrapper
+{
+background-color:#ffffcc;
+min-width: 700px;
+padding: 0px, 0px, 20px, 30px;
+margin-right:auto;
+margin-left: auto;
+border: 1px ridge #00332B;
+-webkit-box-shadow: inset -3px -3px 3px 3px #00332B;            
+-moz-box-shadow: inset -3px -3px 3px 3px #00332B;             
+box-shadow: inset -3px -3px 3px 3px #00332B;  
+}
