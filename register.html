@@ -12,7 +12,7 @@
 </html>
 
 <Center>
-<img src="jnewton3.jpg" width="20%" height="20%">
+<img src="jnewton4.jpg" width="20%" height="20%">
 <h1>Anime Days</h1>
 </Center>
 
@@ -30,8 +30,46 @@
       </ul>
       <!--Adds Sign Up and Log In buttons respectively to navbar -->
        <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        <li><a href="register.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="log.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
       </ul>
   </div>
 </nav>
+
+<div class="col-md-7">
+    <h2>Account Registration</h2>
+    <span class="line"> <span class="sub-line"></span> </span>
+    <form method="POST" accept-charset="UTF-8" id="registerForm" class="form-horizontal"><input name="_token" type="hidden" value="a80XDwYQ2a3lMvsQAIo2DpLRb8G0ay9iJY9IoYuT">    <fieldset>
+        <div class="form-group">
+            <div class="col-md-12">
+                <input class="form-control input-lg" placeholder="Username" required="" name="username" type="text" value="">            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-12">
+                <input class="form-control input-lg" placeholder="Email" required="" name="email" type="email" value="">            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-12">
+                <input class="form-control input-lg" placeholder="Password" required="" name="password" type="password" value="">            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-12">
+                <input class="form-control input-lg" placeholder="Confirm Password" required="" name="password_confirmation" type="password" value="">            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-12">
+                <p>By registering, you are agreeing to our <a href="terms.html">Terms of Use</a>.</p>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-12">
+                <button class="btn btn-default btn-lg" type="reset">
+                    Cancel
+                </button>
+                <button type="submit" class="btn btn-primary btn-lg">
+                    Sign up!
+                </button>
+            </div>
+        </div>
+    </fieldset>
+    </form>

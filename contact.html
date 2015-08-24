@@ -15,6 +15,11 @@
 <img src="jnewton3.jpg" width="20%" height="20%">
 <h1>Anime Days</h1>
 </Center>
+<!-- Background Music-->
+<audio autoplay>
+<source src="iu.ogg" type="audio/ogg">
+<source src="iu.mp3" type="audio/mpeg">
+</audio>
 
          <!-- Collect the nav links for toggling -->
 <body>
@@ -28,10 +33,75 @@
         <li><a href="listings.html">Anime Listings</a> </li>
         <li><a href="contact.html">Contact Us</a></li>
       </ul>
+      
       <!--Adds Sign Up and Log In buttons respectively to navbar -->
        <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        <li><a href="register.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="log.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
       </ul>
   </div>
 </nav>
+
+	
+	<p>You can leave a message using the contact form below. </p>
+<div class="col-md-7">
+<h2>Contact</h2>
+
+ <span class="line"> <span class="sub-line"></span> </span>
+    <form method="POST" accept-charset="UTF-8" id="contactForm" class="form-horizontal"><input name="_token" type="hidden" value="a80XDwYQ2a3lMvsQAIo2DpLRb8G0ay9iJY9IoYuT">    <fieldset>
+        <div class="form-group">
+            <div class="col-md-12">
+ <input class="form-control input-lg" placeholder="Your name" required="" name="username" type="text" value="">            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-12">
+                <input class="form-control input-lg" placeholder="Email" required="" name="email" type="email" value="">            </div>
+        </div>
+        
+        <form>
+<input type="radio" name="sex" value="male" checked><strong>Registered User</strong>
+<br>
+<input type="radio" name="sex" value="female"><strong>Guest</strong>
+</form>
+        <br>
+<div class="form-item" id="edit-subject-wrapper">
+ <label for="edit-subject">Subject: <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" maxlength="255" name="subject" id="edit-subject" size="60" value="" class="form-text required" />
+</div>
+<br>
+<div class="form-item" id="edit-message-wrapper">
+ <label for="edit-message">Message: <span class="form-required" title="This field is required.">*</span></label>
+ <textarea cols="60" rows="5" name="message" id="edit-message"  class="form-textarea resizable required"></textarea>
+</div>
+	<input id="submit_button" type="submit" class="btn btn-primary" value="Send email" />
+
+         <hr>
+<fieldset class="captcha"><legend>CAPTCHA</legend><div class="description">Anime Days hates bots :)</div><input type="hidden" name="captcha_sid" id="edit-captcha-sid" value="110745730"  />
+<input type="hidden" name="captcha_token" id="edit-captcha-token" value="eb037e80a4527a62a7104afc3e4f768f"  />
+<div class="form-item" id="edit-captcha-response-wrapper">
+ <label for="edit-captcha-response">Math question: <span class="form-required" title="This field is required.">*</span></label>
+ <span class="field-prefix">8 + 1 = </span> <input type="text" maxlength="2" name="captcha_response" id="edit-captcha-response" size="4" value="" class="form-text required" />
+ <div class="description">Solve this simple math problem and enter the result. E.g. for 1+3, enter 4.</div>
+</div>
+</fieldset>
+</div></form>
+
+            <div class="container" >
+                <div class="row misc">
+                    <div class="col-md-3" >
+                    <h3>Meet the Developers</h3>
+                                                
+            <p>Thanks for stopping by. You can find me on Linkedin and my projects are on Github.</p>
+                        <ul class="social" >
+                            <li>
+ <a class="btn btn-default" href="https://www.linkedin.com/profile/view?id=238875456&trk=nav_responsive_tab_profile_pic" role="button">MyLinkedIn</a>
+                            </li>
+                            <li>
+  <a class="btn btn-primary" href="https://jnewton1.github.io" role="button">Resume</a>
+                            </li>
+                                  <li>
+  <a class="btn btn-danger" href="https://github.com/jnewton1" role="button">Github</a>
+                            </li>
+                        </ul>
+                    </div>
+                
