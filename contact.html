@@ -57,23 +57,16 @@
             <div class="col-md-12">
                 <input class="form-control input-lg" placeholder="Email" required="" name="email" type="email" value="">            </div>
         </div>
-        
-        <form>
-<input type="radio" name="sex" value="male" checked><strong>Registered User</strong>
-<br>
-<input type="radio" name="sex" value="female"><strong>Guest</strong>
-</form>
-        <br>
-<div class="form-item" id="edit-subject-wrapper">
- <label for="edit-subject">Subject: <span class="form-required" title="This field is required.">*</span></label>
- <input type="text" maxlength="255" name="subject" id="edit-subject" size="60" value="" class="form-text required" />
-</div>
-<br>
-<div class="form-item" id="edit-message-wrapper">
- <label for="edit-message">Message: <span class="form-required" title="This field is required.">*</span></label>
- <textarea cols="60" rows="5" name="message" id="edit-message"  class="form-textarea resizable required"></textarea>
-</div>
-	<input id="submit_button" type="submit" class="btn btn-primary" value="Send email" />
+          <div class="form-group">
+            <div class="col-md-12">
+                <input class="form-control input-lg" placeholder="Subject" required="" name="subject" type="subject" value="">            </div>
+        </div>
+          <div class="form-group" id="edit-message-wrapper">
+            <div class="col-md-12">
+                <input class="form-control input-lg" placeholder="Message" required="" name="message" type="message" value="">            </div>
+        </div>
+
+          <input id="submit_button" type="submit" class="btn btn-primary" value="Send email" />
 
          <hr>
 <fieldset class="captcha"><legend>CAPTCHA</legend><div class="description">Anime Days hates bots :)</div><input type="hidden" name="captcha_sid" id="edit-captcha-sid" value="110745730"  />
@@ -89,7 +82,7 @@
             <div class="container" >
                 <div class="row misc">
                     <div class="col-md-3" >
-                    <h3>Meet the Developers</h3>
+                    <h3>Meet the Developer</h3>
                                                 
             <p>Thanks for stopping by. You can find me on Linkedin and my projects are on Github.</p>
                         <ul class="social" >
